@@ -22,7 +22,7 @@ spec:
 
 ---
 # Source: productpage/templates/deployment.yaml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: RELEASE-NAME-productpage
@@ -65,7 +65,7 @@ spec:
 
 ---
 # Source: productpage/templates/deploymentcanary.yaml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: RELEASE-NAME-productpagecanary
