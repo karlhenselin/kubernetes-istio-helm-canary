@@ -6,8 +6,7 @@ productionDeployment:
   replicaCount: 2
   weight: 100
   image:
-    repository: joelwenzel/natours
-    tag: 1.0.4
+    repository: henselkp/natours
     pullPolicy: IfNotPresent
 
 
@@ -15,8 +14,7 @@ canaryDeployment:
   replicaCount: 0
   weight: 0
   image:
-    repository: joelwenzel/natours
-    tag: 1.0.6
+    repository: henselkp/natours
     pullPolicy: IfNotPresent
 
 
